@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Segmentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Water Segmentation</h1>
+    <h2>Upload a TIFF Image for Segmentation</h2>
+    
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept=".tif">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if image_path and mask_path %}
+    <h3>Original Image</h3>
+    <img src="{{ image_path }}" width="400">
+    
+    <h3>Predicted Mask</h3>
+    <img src="{{ mask_path }}" width="400">
+    {% endif %}
+</body>
+</html>
