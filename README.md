@@ -47,6 +47,11 @@ Preprocessing involved:
 * **Band visualization** was used for inspecting data quality and understanding spectral characteristics.
 * Binary masks were matched with input image patches for supervised training.
 
+Dataset splitting:
+Training set: 80%
+Validation set: 10%
+Testing set: 10%
+total samples: 306 images
 ---
 
 ## 🧠 Model Architecture & Training
@@ -60,8 +65,6 @@ Preprocessing involved:
 
   * **IoU**: 0.72
   * **Dice Coefficient**: 0.84
- 
-Here is the updated section with your requested addition included:
 
 ---
 
