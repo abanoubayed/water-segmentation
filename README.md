@@ -1,4 +1,3 @@
-![Screenshot 2025-05-28 014142](https://github.com/user-attachments/assets/ef9871aa-c7d5-4d7e-98f2-d319a337c9ba)
 # 🌊 Flood Rapid Mapping using Satellite Data
 
 This project focuses on **rapid segmentation of water bodies** using harmonized Sentinel-2 and Landsat satellite imagery. The solution is essential for applications such as **flood monitoring, water resource management, and environmental conservation**. By leveraging deep learning techniques, the model accurately segments water areas in near real-time and is deployed via a Flask web interface.
@@ -104,3 +103,4 @@ The final model was deployed using **Flask**, offering a user-friendly web inter
 
 ![Uploadin![Screenshot 2025-05-28 014427](https://github.com/user-attachments/assets/7e334c2b-ee1f-4b4f-9d2b-0a95dd23b7f6)
 
+![Screenshot 2025-05-28 014142](https://github.com/user-attachments/assets/ef9871aa-c7d5-4d7e-98f2-d319a337c9ba)
