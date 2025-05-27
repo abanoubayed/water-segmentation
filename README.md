@@ -31,9 +31,9 @@ The dataset includes **multispectral and contextual satellite data** layers:
 
 * Binary Water Mask (stored separately)
 
-**Image Shape:** 128 x 128
-**Channels:** 12
-**Ground Sampling Distance:** 30 meters
+**Image Shape:** 128 x 128,
+**Channels:** 12,
+**Ground Sampling Distance:** 30 meters,
 **Patch Size:** 512 x 512 pixels
 
 ---
