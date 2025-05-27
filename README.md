@@ -58,11 +58,9 @@ Preprocessing involved:
 * Input Shape: (128, 128, 12)
 * Evaluation on Test Set:
 
-  * **IoU**: 0.7298
-  * **Dice**: 0.8438
-  * **Precision**: 0.9314
-  * **Recall**: 0.7712
-  * **F1-Score**: 0.8438
+  * **IoU**: 0.72
+  * **Dice Coefficient**: 0.84
+ 
 Here is the updated section with your requested addition included:
 
 ---
@@ -74,7 +72,7 @@ Here is the updated section with your requested addition included:
 * **Band Selection Justification**: These bands are commonly used in computing the **Normalized Difference Water Index (NDWI)**, which is effective for detecting water bodies, enhancing model sensitivity to flooded regions.
 * Loss Function: **Dice Loss**
 * Benefit: Transfer learning improved feature extraction and generalization from satellite imagery.
-* Final Evaluation:
+* Final Evaluation on test set:
 
   * **IoU**: 0.78
   * **Dice Coefficient**: **0.85**
