@@ -47,11 +47,16 @@ Preprocessing involved:
 * **Band visualization** was used for inspecting data quality and understanding spectral characteristics.
 * Binary masks were matched with input image patches for supervised training.
 
-Dataset splitting:
-Training set: 80%
-Validation set: 10%
-Testing set: 10%
-total samples: 306 images
+---
+
+### Dataset Splitting
+
+The dataset consists of a total of **306 images**, which are split into the following subsets:
+
+* **Training Set:** 80% (244 images)
+* **Validation Set:** 10% (31 images)
+* **Testing Set:** 10% (31 images)
+
 ---
 
 ## 🧠 Model Architecture & Training
